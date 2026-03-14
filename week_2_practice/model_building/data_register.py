@@ -3,7 +3,7 @@ from huggingface_hub import HfApi, create_repo
 import os
 
 
-repo_id = "jyantjyant/medical-insurance-cost-prediction"
+repo_id = "Jyant/medical-insurance-cost-prediction"
 repo_type = "dataset"
 
 # Initialize API client
