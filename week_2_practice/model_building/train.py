@@ -88,7 +88,7 @@ joblib.dump(best_model, "best_medical_insurance_model_v1.joblib")
 repo_id = "jyantjyant/medical_insurance_model"
 repo_type = "model"
 
-api = HfApi(token=access_key)
+api = HfApi(token=os.getenv("HF_TOKEN"))
 
 # Step 1: Check if the space exists
 try:

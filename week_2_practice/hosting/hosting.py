@@ -1,7 +1,7 @@
 from huggingface_hub import HfApi
 import os
 
-api = HfApi(token=access_key)
+api = HfApi(token=os.getenv("HF_TOKEN"))
 api.upload_folder(
     folder_path="week_2_practice/deployment",     # the local folder containing your files
     repo_id="jyantjyant/medical-insurance-cost-prediction",          # the target repo
