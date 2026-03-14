@@ -5,7 +5,7 @@ import joblib
 
 # Download and load the model from Hugging Face Hub
 model_path = hf_hub_download(
-    repo_id="jyantjyant/medical_insurance_model",
+    repo_id="Jyant/medical_insurance_model",
     filename="best_medical_insurance_model_v1.joblib"
 )
 model = joblib.load(model_path)
