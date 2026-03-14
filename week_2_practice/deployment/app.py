@@ -18,7 +18,7 @@ Please enter the required information below to get a prediction.
 """)
 
 # User input
-age = st.number_input("Age", min_value=18, max_value=100, value=30, step=1)
+age = st.number_input("Age Bar", min_value=18, max_value=100, value=30, step=1)
 sex = st.selectbox("Sex", ["male", "female"])
 bmi = st.number_input("BMI", min_value=10.0, max_value=50.0, value=25.0, step=0.1)
 children = st.number_input("Number of Children", min_value=0, max_value=10, value=0, step=1)

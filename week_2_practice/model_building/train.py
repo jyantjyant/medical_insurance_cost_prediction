@@ -85,7 +85,8 @@ joblib.dump(best_model, "best_medical_insurance_model_v1.joblib")
 
 
 # Upload to Hugging Face
-repo_id = "Jyant/medical_insurance_model"
+# repo_id = "Jyant/medical_insurance_model"
+repo_id = "Jyant/medical-insurance-cost-model"
 repo_type = "model"
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
