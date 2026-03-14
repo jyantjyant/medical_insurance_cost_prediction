@@ -19,10 +19,10 @@ from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 
 api = HfApi()
 
-Xtrain_path = "hf://datasets/jyantjyant/medical-insurance-cost-prediction/Xtrain.csv"
-Xtest_path = "hf://datasets/jyantjyant/medical-insurance-cost-prediction/Xtest.csv"
-ytrain_path = "hf://datasets/jyantjyant/medical-insurance-cost-prediction/ytrain.csv"
-ytest_path = "hf://datasets/jyantjyant/medical-insurance-cost-prediction/ytest.csv"
+Xtrain_path = "hf://datasets/Jyant/medical-insurance-cost-prediction/Xtrain.csv"
+Xtest_path = "hf://datasets/Jyant/medical-insurance-cost-prediction/Xtest.csv"
+ytrain_path = "hf://datasets/Jyant/medical-insurance-cost-prediction/ytrain.csv"
+ytest_path = "hf://datasets/Jyant/medical-insurance-cost-prediction/ytest.csv"
 
 Xtrain = pd.read_csv(Xtrain_path)
 Xtest = pd.read_csv(Xtest_path)
